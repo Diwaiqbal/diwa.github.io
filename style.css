@@ -1,0 +1,174 @@
+.header
+{
+    background-color: rgb(99, 92, 92);
+    height: 170px;
+    width: 1357px;
+    position: fixed;
+}
+
+.penataan
+{
+    padding-top: 10px;
+    padding-right: 20px;
+    float: right;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo
+{
+    size: 10px;
+}
+
+.icon-images
+{
+    height: 24px;
+    width: 24px;    
+}  
+
+.warp-search
+{
+    position:fixed;
+    width: 430px;
+    height: 39px;
+    background-color: white;    
+    float: right;
+    padding-left: 15px;
+    margin-top: -120px;
+    margin-left: -220px;\
+    top: 50%;
+    left: 50%;
+    bottom: 75%
+}
+
+.form-control
+{
+    position: absolute;
+    width: 86%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.icon-logo
+{
+    width: 360px;
+    height: 150px;
+}
+
+.icon-search
+{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    height: 87%;
+    transform: translateY(-50%);
+}
+
+.menu
+{
+    background-color: whitesmoke;
+    position: absolute;
+    height: 48px;
+    width: 1357px;
+    top: 95%;    
+}
+
+ul
+{
+    align-content: center;
+    list-style-type: name;
+    margin-bottom: 20px;
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid;        
+}
+
+ul li a :hover
+{
+    background-color: white;
+    color: black;
+}
+
+.sub-menu-1
+{
+    display: none;
+}
+
+ul li a :hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(red, green, blue);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.gambar
+{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding-top: 20%;
+}
+
+.gambar .foto img
+{
+    width: 300px;
+}
+
+.foto
+{
+    border: 10px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.foto a
+{
+    border: 1px solid green;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.footer
+{
+    text-align: center;
+    margin: 70px;
+    color:black;
+    background-color: tomato;
+    position:relative;
+}
+
+.footer p
+{
+    padding-top: 50px;
+}
+
+.footer a
+{
+    text-decoration: none ;
+    color: black;
+}
+
+.text
+{
+    align-content: center;
+    padding-bottom: 15px;
+}
